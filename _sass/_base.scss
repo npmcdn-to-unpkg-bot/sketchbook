@@ -1,0 +1,125 @@
+.site-footer,
+.site-header {
+   background: #eee
+}
+
+.post,
+.site-footer a,
+.site-header {
+   text-align: center
+}
+
+body,
+html {
+   height: 100%;
+   font-size: 1em;
+   font-family: Inconsolata, Helvetica, Arial, sans-serif;
+   line-height: 1.5;
+   margin: 0;
+   padding: 0
+}
+
+figcaption,
+p {
+   padding: 1em
+}
+
+img {
+   width: 100%;
+   height: 100%
+}
+
+a {
+   text-decoration: none;
+   color: #97c03e;
+   -webkit-transition: color .1s ease-in-out;
+   transition: color .1s ease-in-out
+}
+
+a:focus,
+a:hover {
+   color: #000;
+   border-bottom: solid 2px #97c03e
+}
+
+iframe,
+video {
+   width: 100%!important
+}
+
+.site-header {
+   padding: 1em;
+   margin: 0 auto 3em
+}
+
+.site-header p {
+   max-width: 30em;
+   margin: 0 auto
+}
+
+.site-footer nav {
+   display: -webkit-box;
+   display: -webkit-flex;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-flex-wrap: wrap;
+   -ms-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-box-orient: horizontal;
+   -webkit-box-direction: normal;
+   -webkit-flex-direction: row;
+   -ms-flex-direction: row;
+   flex-direction: row;
+   -webkit-box-pack: justify;
+   -webkit-justify-content: space-between;
+   -ms-flex-pack: justify;
+   justify-content: space-between
+}
+
+.site-footer a {
+   padding: 3em;
+   color: #000
+}
+
+.site-footer a:focus,
+.site-footer a:hover {
+   background: #97c03e;
+   color: #fff
+}
+
+.posts {
+   margin: 0 auto;
+   width: 95%
+}
+
+.post {
+   background: #fff;
+   margin: 0 1em 2em;
+   width: 90%
+}
+
+@media only screen and (min-width: 800px) {
+   .post {
+       width: 46%
+   }
+}
+
+@media only screen and (min-width: 1200px) {
+   .post {
+       width: 30%
+   }
+}
+
+@media only screen and (min-width: 1440px) {
+   .post {
+       width: 31%
+   }
+}
+
+.post.text p {
+   font-size: 1.5em;
+   background: #97c03e;
+   color: #fff;
+   padding: 1em;
+   margin-top: -.05em
+}
