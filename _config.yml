@@ -19,8 +19,8 @@ author_email: jes@sica.me
 description: > # this means to ignore newlines until "baseurl:"
   Jessica Paoli is an interdisciplinary designer, illustrator, and
   visual artist in Cleveland, Ohio. This is her sketchbook.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://sketchbook.jessicapaoli.com" # the base hostname & protocol for your site
+baseurl: "/sketchbook" # the subpath of your site, e.g. /blog
+url: "http://skullface.github.io" # the base hostname & protocol for your site
 
 # Where things are
 layouts_dir:  ./_layouts
