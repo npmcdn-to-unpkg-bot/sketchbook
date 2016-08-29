@@ -1,14 +1,5 @@
 {% include header.html %}
 
-  <main>
-
-    <h2>{{ page.title }}</h2>
-    <time>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</time>
-
-    <article>
-      {{ content }}
-    </article>
-
-  </main>
+  {{ content }}
 
 {% include footer.html %}
